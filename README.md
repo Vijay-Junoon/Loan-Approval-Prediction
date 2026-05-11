@@ -18,3 +18,18 @@ The features are as follows:
 - credit_score
 - previous_loan_defaults_on_file
   
+## Preprocessing
+Things I have considered for effective preprocessing of the above dataset:
+- Duplicate values
+- Empty / Null values
+- Categorical values
+- Feature Scaling
+
+### Duplicate Values
+There were no duplicate values found in the dataset. 
+
+### Empty/Null values
+No Empty or null values were found. So imputation wasn't necessary.
+
+### Categorical values
+Out of 13 features, there were 5 categorical values. I chose to OneHotEncode all of these categorical values, to turn them into dummy values.
